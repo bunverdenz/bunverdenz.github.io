@@ -354,7 +354,7 @@ $(document).ready(function () {
         function init() {
             var mapOptions = {
                 zoom: 11,
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                center: new google.maps.LatLng(36.3721, 127.3604), // KAIST
                 styles: [{
                     "featureType": "water",
                     "elementType": "geometry",
