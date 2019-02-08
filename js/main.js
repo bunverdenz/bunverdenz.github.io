@@ -10,6 +10,9 @@ $(document).ready(function () {
     $(".fullscreen").css("height", window_height)
     $(".fitscreen").css("height", fitscreen);
 
+    $("#resume").click(function(){
+        alert("Sorry, there's no Resume here yet TT.");
+      });
     //------- Wow JS Initialized --------// 
     new WOW().init();
 
