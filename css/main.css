@@ -6,6 +6,9 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+.nocolor{
+  color: inherit;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #0eabf4;
