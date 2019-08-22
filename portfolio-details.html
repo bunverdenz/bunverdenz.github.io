@@ -348,7 +348,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="left_img">
-							<img class="img-fluid" src="img/work/accenture.jpg" alt="">
+							<img class="img-fluid" src="img/work/accenture.png" alt="">
 						</div>
 					</div>
 					<div class="offset-md-1 col-md-5">
@@ -368,12 +368,14 @@
 				</div>
 				<p> <b>Implementing Endpoint Assertion</b> <br>
 					&emsp;My assignment was to implement assertion including data transferring format from SOAP to REST and 
-					REST to SOAP with CA API Gateway together with privacy such as TLS assertion. 
+					REST to SOAP with <a href="https://docops.ca.com/ca-api-gateway/9-4/en">CA API Gateway 9.4</a> together with privacy such as TLS assertion. 
 				</p>
 				<p> 
 						<b>Performance Automated Testing</b> <br>
-						&emsp;Using JMeter, I can create performance statistic with simulated users requesting
-						for endpoints in the order I desire.
+						&emsp;Using <a href="https://jmeter.apache.org/">JMeter</a>, I can create performance statistic with simulated users requesting
+						for endpoints in the order I desire. Regular Expression is also used for extracting wanted request and response. I need to contact
+						test team in order to follow the scenario and use <a href="https://www.telerik.com/fiddler">Fiddler</a> or <a href="https://www.charlesproxy.com/">Charles</a>
+						for extracting request from mobile phone while testing each scenario.
 				</p>
 				<p> 
 						<b>Debugging Automated Test Script</b> <br>
@@ -387,6 +389,13 @@
 					implemented configured file for AWS server. The task involved some knowledge about the structure of config file, using 
 					<a href="http://httpd.apache.org/docs/2.4/mod/mod_cache.html">mod_cache</a> module and <a href="http://httpd.apache.org/docs/2.4/mod/mod_cache_disk.html">mod_cache_disk</a>
 					module. I spent some time learning how to setup cache, this is one of the challenging tasks I got.
+				</p>
+				<p> 
+					<b>Migrating Springboot Project to Kubernetes</b> <br>
+					&emsp;Here comes the most exciting task, I had to use <a href="https://spring.io/projects/spring-cloud-gateway">Spring Cloud Gateway</a> for 
+					<a href="https://spring.io/projects/spring-boot">Spring Boot</a> Project where I needed to work on application.yml for configuration, Java files
+					for Custom Filtering, Validating Token with Spring cloud gateway library, Docker and Helm for accessing Server and Hystrix. Kubernetes configuration are 
+					setup with Docker, Jenkins, Helm and application.yml files. The application.yml file was where I contributed the most for this project.					
 				</p>
 				
 				Further assignment will be updated soon.
